@@ -9,14 +9,14 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Enzo Fernandes Alcantara 
+- Matricula: 908460
+- Proposta de projeto escolhida: brasil open de futvolei
+- Breve descrição sobre seu projeto:  site sobre o brasil open de futvolei o maior campeonato de futvolei do brasil
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 

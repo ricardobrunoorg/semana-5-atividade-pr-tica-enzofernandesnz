@@ -16,11 +16,20 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-
+![Tela 1](public/img-telas/teladesktop1.png)
+![Tela 2](public/img-telas/teladesktop2.png)
+![Tela 3](public/img-telas/teladesktop3.png)
+![Tela 4](public/img-telas/teladesktop4.png)
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Tela 1](public/img-telas/telamobile1.png)
+![Tela 1](public/img-telas/telamobile2.png)
+![Tela 1](public/img-telas/telamobile3.png)
+![Tela 1](public/img-telas/telamobile4.png)
+![Tela 1](public/img-telas/telamobile5.png)
+![Tela 1](public/img-telas/telamobile6.png)
+![Tela 1](public/img-telas/telamobile7.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 

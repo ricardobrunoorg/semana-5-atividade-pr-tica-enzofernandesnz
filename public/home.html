@@ -3,10 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Brasil Open de Futvôlei</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="site-header">
+  <div class="header-logo">
+    <img src="img/logo.png" alt="">
+  </div>
+ 
+  <nav class="main-nav" aria-label="Navegação principal">
+    <ul>
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#datas">data</a></li>
+      <li><a href="#categorias">categorias</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+<!-- ═══════════════════════════════════════════════
+     MAIN
+════════════════════════════════════════════════ -->
+<main class="site-main">
+ 
+
+  <section class="hero" id="home" aria-label="Seção principal">
+ 
+    <h1 class="hero-title">BRASIL OPEN<br>DE FUTVOLEI</h1>
+ 
+    <div class="hero-subscribe">
+      <p>Inscreva-se</p>
+      <form class="subscribe-form" action="#" method="post" aria-label="Formulário de inscrição">
+        <input type="email" name="email" placeholder="seu@email.com" required aria-label="E-mail" />
+        <button type="submit">Inscreva-se</button>
+      </form>
+    </div>
+ 
+    <div class="hero-sponsor-bar">
+      <div class="sponsor-row">
+        <span class="sponsor-badge">ARENA7</span>
+      </div>
+    </div>
+  </section>
+ 
+
+  <section class="about" id="sobre" aria-labelledby="about-heading">
+    <h2 class="about-headline" id="about-heading">
+      O MAIOR PALCO DO<br>FUTVOLEI BRASILEIRO
+    </h2>
     
+ 
+    <div class="about-grid">
+      <article class="about-col">
+        <p class="highlight">
+          Mais que um campeonato, uma verdadeira celebração do futvolei nacional.
+        </p>
+        <p>
+          Prepare-se para ver os melhores atletas do Brasil
+          deixando tudo em quadra em busca do título.
+        </p>
+        <br>
+        <p>
+          Nossa história é escrita a cada ponto disputado. O Brasil Open nasceu para
+          valorizar o atleta de futevolei e entregar um evento com infraestrutura de ponta.
+          Desde 2021, já vimos ídolos serem coroados, zebras históricas e lances que ficaram
+          na memória. E estamos apenas começando.
+        </p>
+        <br>
+        <p>A competição reúne os maiores nomes do Futevolei nacional e internacional.</p>
+      </article>
+ 
+    </div>
+  </section>
+ 
+  <!-- PHOTO GRID -->
+  <div class="photo-grid">
+    <img src="img/img2_historia.jpg" alt="" loading="lazy"
+    />
+    <img
+      src="img/img3_historia.jpg" alt="" loading="lazy"
+    />
+  </div>
+ 
+  <!-- ARENA -->
+  <section class="arena" id="arena" aria-labelledby="arena-heading">
+    <article class="arena-info">
+      <p>
+        <strong>A Arena 7 em Nova Lima</strong>, local onde são realizadas as partidas,
+        promete uma mega estrutura para este ano. Estarão em quadra a categoria Open Estrelas,
+        com principais jogadores do Brasil e do mundo, como André e Brisa, Tavinho e Qui, João,
+        E1 e Beguinha, Longo e Michel, Agui e Franklin, Índio e Felipe, entre outros.
+      </p>
+      <p>
+        Além disso, ainda serão disputadas as categorias amadoras, com cerca de 450 atletas,
+        e a categoria Open com 32 dos melhores jogadores.
+      </p>
+      <img class="arena-photo" src="img\arena7.jpg" alt="" loading="lazy"/>
+    </article>
+  </section>
+ 
+  <!-- DATES -->
+  <section class="dates" id="datas" aria-labelledby="dates-heading">
+    <div class="dates-header">
+      <div class="dates-tagline">
+        #AQUITODOJOGAM<br>
+        <strong>O Torneio Mais Disputado do Mundo:</strong>
+        Calendário 2026
+      </div>
+      <h2 class="dates-title" id="dates-heading">datas</h2>
+    </div>
+ 
+    <ul class="dates-list">
+      <li>
+        <span class="etapa-label">1ª Etapa</span>
+        <span class="etapa-date">| 13 a 15 de Março</span>
+        <span class="badge-concluded">Etapa Concluída</span>
+      </li>
+      <li>
+        <span class="etapa-label">2ª Etapa</span>
+        <span class="etapa-date">| 19 a 21 de Junho</span>
+        <span class="badge-next">Próxima Etapa</span>
+      </li>
+      <li>
+        <span class="etapa-label">3ª Etapa</span>
+        <span class="etapa-date">| 14 a 16 de Agosto</span>
+        <span></span>
+      </li>
+      <li>
+        <span class="etapa-label">4ª Etapa</span>
+        <span class="etapa-date">| 23 a 25 de Outubro</span>
+        <span></span>
+      </li>
+      <li>
+        <span class="etapa-label">5ª Etapa</span>
+        <span class="etapa-date">| 13 a 15 de Novembro</span>
+        <span></span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="categories" id="categorias" aria-labelledby="cat-heading">
+    <h2 class="categories-title" id="cat-heading">CATEGORIAS</h2>
+ 
+    <!-- Avançado -->
+    <article class="cat-group">
+      <h3 class="cat-group-title">avançado</h3>
+      <div class="cat-cards">
+        <div class="cat-card">
+          <p class="cat-name">Convidados</p>
+          <p class="cat-teams">20 equipes</p>
+        </div>
+        <div class="cat-card">
+          <p class="cat-name">Open Estrelas</p>
+          <p class="cat-teams">16 equipes</p>
+        </div>
+        <div class="cat-card">
+          <p class="cat-name">Masculino Duro</p>
+          <p class="cat-teams">20 equipes</p>
+        </div>
+      </div>
+    </article>
+ 
+    <div class="cat-divider"></div>
+ 
+    <article class="cat-group">
+      <h3 class="cat-group-title">itermediario / iniciante</h3>
+      <div class="cat-cards">
+        <div class="cat-card">
+          <p class="cat-name">Masculino<br>Intermediário</p>
+          <p class="cat-teams">32 equipes</p>
+        </div>
+        <div class="cat-card">
+          <p class="cat-name">Masculino<br>Iniciante II</p>
+          <p class="cat-teams">32 equipes</p>
+        </div>
+        <div class="cat-card">
+          <p class="cat-name">Masculino<br>Iniciante I</p>
+          <p class="cat-teams">32 equipes</p>
+        </div>
+      </div>
+    </article>
+ 
+    <div class="cat-divider"></div>
+ 
+    <article class="cat-group">
+      <h3 class="cat-group-title">feminino</h3>
+      <div class="cat-cards">
+        <div class="cat-card">
+          <p class="cat-name">Feminino<br>Intermediário</p>
+          <p class="cat-teams">16 equipes</p>
+        </div>
+      </div>
+    </article>
+  </section>
+ 
+</main>
+ 
+<footer class="site-footer">
+  <div class="footer-logo">BRASIL OPEN DE FUTVOLEI</div>
+ 
+  <nav class="footer-nav" aria-label="Navegação do rodapé">
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#datas">Datas</a></li>
+      <li><a href="#categorias">Categorias</a></li>
+      <li><a href="#arena">Arena</a></li>
+    </ul>
+  </nav>
+ 
+  <p class="footer-copy">2026 Brasil Open de Futvolei. Todos os direitos reservados.</p>
+</footer>
+
+
+
 </body>
 </html>
